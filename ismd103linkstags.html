@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags and Links</title>
+</head>
+<body>
+    <h3>Tags and Links in HTML</h3>
+    <a>Hi Clicking on this link won't open a webpage as there is no href added</a>
+    <a href="https://www.youtube.com">This will open youtube due to the use of href extension with "a (anchor tag)"</a>
+    <!--target = "_self"(default)  then link opens in the current tab and target = "_blank" then link opens in a new tab-->
+    <a href="https://www.youtube.com" target="_blank">This will open youtube in a new tab due to the use of target extension with "a (anchor tag)"</a>
+    <!-- rel="_noreferrer"=(default) security for avoiding tabnabbing , "noopener"=more secure, prevents the new page from accessing the window.open() method -->
+    <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">This will open youtube in a new tab with enhanced security</a>
+    <!-- <img src> , alt= gives the alternate text for the image in case it is not loaded , height = " "and width = "" are used to specify the pixel size of the image-->
+    <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Mock Image" height="300" width="300">
+    <!-- We can also use the local image path by using ../ to navigate to the image file by going back one directory, same applies for links but im not sure of the ../ thing for links -->
+    <img src="../img/phto.jpg" alt="my pic" height ="200" width = "200">
+</body>
+</html>
